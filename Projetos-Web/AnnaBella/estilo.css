@@ -1,0 +1,63 @@
+body{
+    background:rgb(231, 235, 207) url('imagens/fundo.png');
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+a {
+    color:rgb(76, 106, 133);
+    text-decoration: none;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+}
+
+a:hover {
+    background-color: rgb(237, 240, 221);
+}
+
+h3{
+    font-weight: bold;
+    color: rgb(151, 140, 115);
+}
+
+#principal {
+    /*border: 1px solid red;*/
+    width: 900px;
+    /*height: 2150px;*/
+}
+
+#menu {
+    background:rgb(202, 202, 182);
+    /*border: 1px solid red;*/
+    padding: 18px;
+}
+
+#titulo {
+    background:rgb(237, 240, 221);
+    /*border: 1px solid red;*/
+    padding: 9px;  
+}
+
+.btn-top {
+    display: none; /* o botão começa escondido */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: rgb(227, 208, 169);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+.btn-top:hover {
+    background-color: #555;
+} 
+
+.campanha-img{
+    border: 10px solid #ded3b5;
+}

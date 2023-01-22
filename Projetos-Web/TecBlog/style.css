@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 252, 252);
+}
+/*------- Layout -----*/
+
+#areacabecalho{
+    background-color: gold;
+    padding: 15px;
+    text-align: center;
+}
+
+#arealogo, #areamenu{
+    padding: 10px;
+
+}
+
+.areaprincipal{
+    border: 1px solid red;
+    padding: 15px;    
+    margin: 0 auto;
+    width: 920px; 
+}
+
+.areapostagens{
+    width: 660px;
+    float: left;
+    border: 1px solid red;
+    background-color: rgb(233, 243, 183);
+    
+}
+
+.arealateral{
+    border: 1px solid red;
+    background-color: rgb(196, 233, 144);
+    width: 240px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.conteudolateral{
+    background-color: rgb(206, 90, 90);
+    padding: 10px;
+    
+}
+
+.postagemlateral{
+    padding: 9px;
+    margin-bottom: 5px;
+    background-color: rgb(216, 163, 163);
+  
+    
+}
+
+/*------- Formatação do menu -----*/
+
+a{
+    text-decoration: none;
+}
+
+a:link,  a:visited{
+    color: gold;  
+}
+
+a:hover{
+    text-decoration: underline;
+     
+}
+
+#areacabecalho a:link, #areacabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+    font-size: 1.2em;
+}
+
+#areacabecalho a:hover{
+    background-color: white;
+    color: gold; 
+    text-decoration: none; 
+}
+
+/*------- Formatação geral -----*/
+
+h1{
+    color: rgb(92, 92, 92);
+    font-size: 2.5em;
+}
+
+h2{
+    color: gray;
+
+}
+
+h3{
+    color: gray;
+    background: aquamarine;
+    margin: 10px;
+    padding:5px ;
+    border: 1px solid red;
+}
+
+.branco{
+    color: white;
+}
+
+.titulo{
+    color: gold;
+}
+
+.espacamento{
+    padding-left: 20px;
+}
+
+.rodape{
+    text-align: center;
+    background-color: aqua;
+    padding: 15px;
+    clear: both;
+    border: 1px solid red;
+}
