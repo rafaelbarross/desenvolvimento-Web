@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Posicionamentos (absolute e fixed)</title>
+
+        <style type="text/css">
+
+            body{
+                background-color: darkcyan;
+            }
+
+            #container {
+                background-color:  rgb(255, 197, 252); 
+                block-size: 270px;
+                width: 689px;
+                margin:15px auto;
+                padding-top: 1px;
+                padding-left: 45px;              
+                border: 1px solid red;
+                position: relative;
+            }
+
+            h1{
+              
+
+            }
+            
+            p{
+                width: 200px;
+            }
+
+            .absolute{               
+                border: 1px solid red;
+                background-color: azure;
+                position: absolute;
+                top: 65px;
+                right: 270px;
+            }
+
+            .absolutee{               
+                border: 1px solid red;
+                background-color: azure;
+                position: absolute;
+                top: 65px;
+                right: 45px;
+            }
+
+            .fixed{
+                width: 4%;
+                position: fixed;
+                right: 12px;
+                bottom: 12px;
+
+
+
+            }
+
+
+            .relative {
+                border: 1px solid red;
+                position: relative;
+                /* top, right, bottom, left*/
+                bottom: 178px;
+                left: 220px;
+
+            }
+            .relativee {
+                border: 1px solid red;
+                position: relative;
+                /* top, right, bottom, left*/
+                bottom: 356px;
+                left: 440px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Posicionamentos</h1>
+            <p style="border: 1px solid red; background-color:azure">
+                P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor, impedit cumque sint modi ipsum ut vero fuga quam harum. Quibusdam praesentium quas animi, modi minus iure debitis placeat adipisci.
+            </p>
+
+            <p class="absolute">
+                P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor, impedit cumque sint modi ipsum ut vero fuga quam harum. Quibusdam praesentium quas animi, modi minus iure debitis placeat adipisci.
+            </p>
+
+            <p class="absolutee" >
+                P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor, impedit cumque sint modi ipsum ut vero fuga quam harum. Quibusdam praesentium quas animi, modi minus iure debitis placeat adipisci.
+            </p>
+
+            <img class=fixed src="imagens/chat.png" alt="">
+           
+
+        </div>
+        
+    </body>
+</html
